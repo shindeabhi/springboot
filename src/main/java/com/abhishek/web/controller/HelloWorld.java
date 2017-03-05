@@ -20,4 +20,6 @@ public class HelloWorld {
     public String helloWorld(@RequestParam(value = "name", defaultValue = "Test") String name) {
         return helloWorldService.getMessage() + name;
     }
+
+
 }
